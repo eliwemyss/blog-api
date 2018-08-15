@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: PN5N4alid8Ik8WijButro/6y+AndvVyd6p6btFhuz/T3kD/gR6q85G5518Ok9WAIv/XNidC5RcTaNxpwMKdX4TTxuml5t5TU++cWKCwgVFeRunQmiAjIAtSaJNv8+6ls2qbT6W2C8sRNEVJDCJlq1mNE7vVAlPR2QehXNAeHCVGOpFyFg0R+PhQK0CI0v7ANC5PgFphBfwZ+pV1fsQ7KKZ22wl+lrD2GAuseabh8kjXAy3jtRUllESbRhAiTbMI+ezo0Q+uTBr/D0+rHuGW5zjpil9dRaPQjP/iqUDnHpJ2SmhcQGUoXjfB688x9pYTVbohZI+K9tHBUsK5WhH/42LtWwYfUO8FQ7OguaFRwho/4UwBIe8SNjjDu4U8P+QbCHHo6k8kOpi4H2BeECRG5AEui7unFuZm9bF76JQNay1UFxtoiKWJFc51JAY3CgxWox/URnFEk/Gr0OPZeSImNj76jZ2kQuQuJuabaFmdgF1hV1GvE90W0ci0mGCcC3It+va5ommAfFqAJlJ8N1XHPfO7MATwj+0BgGNgyGoTPii+Q/vkJFe1vz4dDVuMrsSy/Ecv0IuKo09BBtAwfyV3geyqdoZ0kxUHk+0HqadtA2Kdgt4zQWuGqGmlC9+szjpkaTYii3yP/waY93PUtkQQLU29z7NEDBJFLfZvq2ttVxIQ=
+  app: lit-anchorage-49264
+  on:
+    repo: eliwemyss/blog-api
