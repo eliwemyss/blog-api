@@ -41,8 +41,7 @@ function closeServer() {
   });
 }
 
- test code) can start the server as needed.
-if (require.main === module) {
+ if (require.main === module) {
   runServer().catch(err => console.error(err));
 }
 

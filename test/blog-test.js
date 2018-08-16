@@ -1,5 +1,5 @@
 const chai = require('chai');
-const chaiHttp = required('chai-http');
+const chaiHttp = require('chai-http');
 
 const {app, runServer, closeServier} = require('../server');
 
@@ -87,8 +87,3 @@ describe('blog posts', function() {
   });
 });
 
-
-
-
-
-})
